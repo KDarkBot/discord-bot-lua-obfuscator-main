@@ -24,7 +24,7 @@ def keep_alive():
     server.start()
  
 # make sure you add discord bot token in secret environment variables with a key named DISCORD_TOKEN
-token = "MTE0MzU2MTU2NjQyNDQwODE5Ng.GWYuMs.TwP0wzyvups4rhIirewiH91PMsAfrMEc6gtdRI"
+token = os.environ['DISCORD_TOKEN']
 # channel id of the channel you want the bot obfuscate in. 
 # with developer settings enabled right click channel and copy id. (bot works in direct messages as well)
 channel_id = 1143563670115332116
